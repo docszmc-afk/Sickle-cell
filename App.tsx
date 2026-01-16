@@ -24,8 +24,8 @@ interface AppNotification {
 }
 
 export const ASSETS = {
-  logo: "public/images/the-right-one.jpg",
-  heroImage: "public/images/OS2A5815(2).jpg",
+  logo: "https://zippy-daffodil-2b23c8.netlify.app/images/the-right-one.jpg",
+  heroImage: "https://zippy-daffodil-2b23c8.netlify.app/images/OS2A5815(2).jpg",
   aboutTeam: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800",
   impactCommunity: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=800",
   contactSide: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1000",
