@@ -24,8 +24,8 @@ interface AppNotification {
 }
 
 export const ASSETS = {
-  logo: "https://drive.google.com/file/d/1o9DarqlIOgHkJtT9N9QBeNHSzwtMOQ1S/view?usp=drive_link",
-  heroImage: "https://drive.google.com/file/d/1lExDkAhHAiEc9BmPD0-tL6myr9Jyki-i/view?usp=drive_link",
+  logo: "public/images/the-right-one.jpg",
+  heroImage: "public/images/OS2A5815(2).jpg",
   aboutTeam: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800",
   impactCommunity: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=800",
   contactSide: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1000",
