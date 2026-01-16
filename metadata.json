@@ -1,0 +1,8 @@
+
+{
+  "name": "Zankli Sicklecare Initiative",
+  "description": "A community-centered initiative committed to improving awareness, prevention, management, and support for sickle cell disease, established under ASH International Outreach.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
