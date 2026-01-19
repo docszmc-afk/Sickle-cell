@@ -88,12 +88,12 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </button>
         </div>
         <div className="flex space-x-8">
-          <a href="https://www.instagram.com/zmcsicklecaree/" className="hover:text-burntOrange transition-all hover:scale-110"><Instagram size={20} /></a>
+          <a href="https://www.instagram.com/zmcsicklecaree/" className="hover:text-burntOrange transition-all hover:scale-110" target="_blank"><Instagram size={20} /></a>
           {/* <a href="https://www.tiktok.com/@zmcsicklecare?_r=1&_t=ZS-93CUra5AFKp" className="hover:text-burntOrange transition-all hover:scale-110"><Tiktok size={20} /></a> */}
-          <a href="https://www.facebook.com/people/ZMC-SickleCare-Sickle-Cell-support/61585616602781/" className="hover:text-burntOrange transition-all hover:scale-110"><Facebook size={20} /></a>
+          <a href="https://www.facebook.com/people/ZMC-SickleCare-Sickle-Cell-support/61585616602781/" className="hover:text-burntOrange transition-all hover:scale-110" target="_blank"><Facebook size={20} /></a>
           {/* <a href="#" className="hover:text-burntOrange transition-all hover:scale-110"><Twitter size={20} /></a> */}
-          <a href="https://ng.linkedin.com/in/zmc-sicklecare-3311103a1" className="hover:text-burntOrange transition-all hover:scale-110"><Linkedin size={20} /></a>
-          <a href="https://www.youtube.com/@ZMCSickleCareinitiative" className="hover:text-burntOrange transition-all hover:scale-110"><Youtube size={20} /></a>
+          <a href="https://ng.linkedin.com/in/zmc-sicklecare-3311103a1" target="_blank" className="hover:text-burntOrange transition-all hover:scale-110"><Linkedin size={20} /></a>
+          <a href="https://www.youtube.com/@ZMCSickleCareinitiative" className="hover:text-burntOrange transition-all hover:scale-110" target="_blank"><Youtube size={20} /></a>
         </div>
       </div>
     </footer>
