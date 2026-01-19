@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Heart, Instagram, Twitter, Facebook, Mail, Phone, MapPin, ShieldCheck } from 'lucide-react';
+import { Heart, Instagram, Facebook, Mail, Phone, MapPin, ShieldCheck, Linkedin, Youtube } from 'lucide-react';
 import { Page, ASSETS } from '../App';
 
 interface FooterProps {
@@ -12,7 +12,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
     <footer className="bg-darkText text-cream pt-24 pb-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
         <div className="space-y-8">
-          <div 
+          <div
             className="flex items-center space-x-2 cursor-pointer group"
             onClick={() => onNavigate('home')}
           >
@@ -62,24 +62,24 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <ul className="space-y-6 text-sm text-cream/70 font-bold">
             <li className="flex items-center space-x-4">
               <Mail size={18} className="text-burntOrange shrink-0" />
-              <span className="hover:text-cream transition-colors cursor-pointer">info@zanklisicklecare.org</span>
+              <span className="hover:text-cream transition-colors cursor-pointer">zmcsicklecareinitiative@gmail.com</span>
             </li>
             <li className="flex items-center space-x-4">
               <Phone size={18} className="text-burntOrange shrink-0" />
-              <span className="hover:text-cream transition-colors cursor-pointer">+234 (0) 800-ZANKLI-CARE</span>
+              <span className="hover:text-cream transition-colors cursor-pointer">+2348101757366</span>
             </li>
             <li className="flex items-start space-x-4">
               <MapPin size={18} className="text-burntOrange shrink-0 mt-1" />
-              <span className="hover:text-cream transition-colors cursor-pointer leading-relaxed">Abuja / Lagos,<br />Nigeria</span>
+              <span className="hover:text-cream transition-colors cursor-pointer leading-relaxed">No 1 Ibrahim Tahir Lane Utako<br />Abuja<br />Nigeria</span>
             </li>
           </ul>
         </div>
       </div>
-      
+
       <div className="max-w-7xl mx-auto border-t border-white/5 mt-20 pt-10 flex flex-col md:flex-row justify-between items-center text-[10px] text-cream/20 font-black uppercase tracking-[0.3em] space-y-6 md:space-y-0">
         <div className="flex flex-col md:flex-row items-center md:space-x-8 space-y-4 md:space-y-0">
           <p>&copy; {new Date().getFullYear()} Zankli Sicklecare Initiative.</p>
-          <button 
+          <button
             onClick={() => onNavigate('admin')}
             className="flex items-center space-x-2 text-cream/40 hover:text-burntOrange transition-colors"
           >
@@ -88,9 +88,12 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </button>
         </div>
         <div className="flex space-x-8">
-          <a href="#" className="hover:text-burntOrange transition-all hover:scale-110"><Instagram size={20} /></a>
-          <a href="#" className="hover:text-burntOrange transition-all hover:scale-110"><Twitter size={20} /></a>
-          <a href="#" className="hover:text-burntOrange transition-all hover:scale-110"><Facebook size={20} /></a>
+          <a href="https://www.instagram.com/zmcsicklecaree/" className="hover:text-burntOrange transition-all hover:scale-110"><Instagram size={20} /></a>
+          {/* <a href="https://www.tiktok.com/@zmcsicklecare?_r=1&_t=ZS-93CUra5AFKp" className="hover:text-burntOrange transition-all hover:scale-110"><Tiktok size={20} /></a> */}
+          <a href="https://www.facebook.com/people/ZMC-SickleCare-Sickle-Cell-support/61585616602781/" className="hover:text-burntOrange transition-all hover:scale-110"><Facebook size={20} /></a>
+          {/* <a href="#" className="hover:text-burntOrange transition-all hover:scale-110"><Twitter size={20} /></a> */}
+          <a href="https://ng.linkedin.com/in/zmc-sicklecare-3311103a1" className="hover:text-burntOrange transition-all hover:scale-110"><Linkedin size={20} /></a>
+          <a href="https://www.youtube.com/@ZMCSickleCareinitiative" className="hover:text-burntOrange transition-all hover:scale-110"><Youtube size={20} /></a>
         </div>
       </div>
     </footer>
